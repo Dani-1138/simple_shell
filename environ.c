@@ -2,10 +2,10 @@
 
 /**
  * _myenv - prints the current environment
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- * Return: Always 0 
+ * @info: Structure containing potential arguments.
+ * Return: Always 0
  */
+
 int _myenv(info_t *info)
 {
 	print_list_str(info->env);
